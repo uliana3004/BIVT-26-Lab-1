@@ -2,25 +2,28 @@ namespace Lab1
 {
     public class White
     {
-        public bool Task1(double d)
-        {
-            bool answer = false;
+       public bool Task1(double d)
+{
+    bool answer = false;
+    answer = d > 0;
 
-            // code here
+    // code here
 
-            // end
+    // end
 
-            return answer;
-        }
-        public bool Task2(int n)
-        {
-            bool answer = false;
+    return answer;
+}
+public bool Task2(int n)
+{
+    bool answer = false;
 
-            // code here
 
-            // end
+    // code here
+    answer = n % 2 == 0;
 
-            return answer;
+    // end
+
+    return answer;
         }
         public int Task3(int a, int b)
         {
